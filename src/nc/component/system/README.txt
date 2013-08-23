@@ -1,0 +1,2 @@
+Add urself:
+ResourceManager component.

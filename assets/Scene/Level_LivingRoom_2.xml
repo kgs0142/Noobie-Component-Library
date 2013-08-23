@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="LivingRoom_2" minx="320" miny="640" maxx="640" maxy="800" bgColor = "0xff000000" >
+	<layer name="bg" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_LivingRoom_2_bg.csv" tiles="ContreteWall.PNG" x="320.000" y="640.000" tileWidth="16" tileHeight="16" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="Main" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_LivingRoom_2_Main.csv" tiles="TileSet003.png" x="320.000" y="640.000" tileWidth="16" tileHeight="16" hasHits="true" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="trigger" xScroll="1.000" yScroll="1.000" >
+		<shape type="box" x="330.00" y="706.00" angle="0.00" wid="22.55" ht="35.00" >
+			<properties>
+				<prop name="event" value="e024" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="593.00" y="714.00" angle="0.00" wid="27.53" ht="28.00" >
+			<properties>
+				<prop name="event" value="e022" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="509.00" y="722.00" angle="0.00" wid="26.47" ht="21.57" >
+			<properties>
+				<prop name="event" value="e023" />
+				<prop name="target" value="7E5351C6-0AA5-8D9D-869A-24B14991FB9E" />
+			</properties>
+		</shape>
+	</layer>
+	<layer name="others" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CDoor" name="Door" x="327.00" y="709.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CDoor" name="Door" x="586.00" y="712.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CTv" name="TV" x="389.00" y="711.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CHangerBig" name="HangerBig" x="489.00" y="723.00" angle="83.49" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CHangerSmall" name="HangerSmall" x="463.00" y="721.00" angle="319.87" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CEnemy" name="Enemy" x="456.00" y="593.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" >
+			<properties>
+				<prop name="active" value="false" />
+				<prop name="visible" value="true" />
+				<prop name="guid" value="7E5351C6-0AA5-8D9D-869A-24B14991FB9E" />
+			</properties>
+		</sprite>
+	</layer>
+	<layer name="sprites" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CPlayer" name="Player" x="567.00" y="726.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+</level>

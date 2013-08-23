@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="First" minx="0" miny="0" maxx="320" maxy="160" bgColor = "0xff000000" >
+	<layer name="Backgrpund" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_First_Backgrpund.csv" tiles="TileTest002.png" x="0.000" y="0.000" tileWidth="16" tileHeight="16" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="Main" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_First_Main.csv" tiles="TileSet003.png" x="0.000" y="0.000" tileWidth="16" tileHeight="16" hasHits="true" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="trigger" xScroll="1.000" yScroll="1.000" >
+		<shape type="box" x="30.00" y="71.00" angle="0.00" wid="26.47" ht="26.47" >
+			<properties>
+				<prop name="event" value="e001" />
+			</properties>
+		</shape>
+		<shape type="box" x="251.00" y="69.00" angle="0.00" wid="24.26" ht="33.00" >
+			<properties>
+				<prop name="event" value="e003" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="123.00" y="71.00" angle="0.00" wid="28.85" ht="28.85" >
+			<properties>
+				<prop name="event" value="e002" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<properties>
+			<prop name="event" value="e002" />
+		</properties>
+	</layer>
+	<layer name="others" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CDoor" name="Door" x="248.00" y="71.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CDiary" name="Diary" x="129.00" y="92.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+	<layer name="sprites" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CPlayer" name="Player" x="36.00" y="73.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+</level>

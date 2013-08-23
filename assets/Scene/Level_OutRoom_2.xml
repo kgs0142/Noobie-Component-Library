@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="OutRoom_2" minx="320" miny="160" maxx="640" maxy="320" bgColor = "0xff000000" >
+	<layer name="Map4" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_OutRoom_2_Map4.csv" tiles="ContreteWall.PNG" x="320.000" y="160.000" tileWidth="16" tileHeight="16" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="Main" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_OutRoom_2_Main.csv" tiles="TileSet003.png" x="320.000" y="160.000" tileWidth="16" tileHeight="16" hasHits="true" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="trigger" xScroll="1.000" yScroll="1.000" >
+		<shape type="box" x="597.71" y="221.00" angle="0.00" wid="28.67" ht="43.14" >
+			<properties>
+				<prop name="event" value="e028" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="386.00" y="237.00" angle="0.00" wid="20.67" ht="31.00" >
+			<properties>
+				<prop name="event" value="e029" />
+			</properties>
+		</shape>
+		<shape type="box" x="355.00" y="219.00" angle="0.00" wid="23.53" ht="39.22" >
+			<properties>
+				<prop name="event" value="e030" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<properties>
+			<prop name="event" value="e029" />
+		</properties>
+	</layer>
+	<layer name="others" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CDoor" name="Door" x="597.00" y="229.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CDoor" name="Door" x="357.00" y="229.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CDeadGuy" name="DeadGuy" x="367.00" y="244.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+	<layer name="sprites" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CPlayer" name="Player" x="573.00" y="242.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+</level>

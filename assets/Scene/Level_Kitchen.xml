@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="Kitchen" minx="0" miny="480" maxx="320" maxy="640" bgColor = "0xff000000" >
+	<layer name="Main" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_Kitchen_Main.csv" tiles="TileTest002.png" x="0.000" y="480.000" tileWidth="16" tileHeight="16" hasHits="true" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="Trigger" xScroll="1.000" yScroll="1.000" >
+	</layer>
+	<layer name="sprite" xScroll="1.000" yScroll="1.000" >
+	</layer>
+</level>

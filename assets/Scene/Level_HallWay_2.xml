@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="HallWay_2" minx="320" miny="800" maxx="640" maxy="960" bgColor = "0xff000000" >
+	<layer name="bg" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_HallWay_2_bg.csv" tiles="Hallway_2bg.PNG" x="320.000" y="800.000" tileWidth="160" tileHeight="160" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="Main" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_HallWay_2_Main.csv" tiles="TileSet003.png" x="320.000" y="800.000" tileWidth="16" tileHeight="16" hasHits="true" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="trigger" xScroll="1.000" yScroll="1.000" >
+		<shape type="box" x="328.00" y="876.00" angle="0.00" wid="26.47" ht="35.29" >
+			<properties>
+				<prop name="event" value="e020" />
+				<prop name="target" value="FB480AE1-1E05-EE4E-B96E-CC59B1A79FEC" />
+				<prop name="once" value="false" />
+			</properties>
+		</shape>
+		<shape type="box" x="623.00" y="876.00" angle="0.00" wid="21.14" ht="33.33" >
+			<properties>
+				<prop name="event" value="e021" />
+				<prop name="target" value="B8B4F09C-3464-8CD3-E19C-3DD32363BD80" />
+				<prop name="once" value="false" />
+			</properties>
+		</shape>
+		<shape type="box" x="-403.00" y="952.00" angle="0.00" wid="50.00" ht="50.00" />
+	</layer>
+	<layer name="sprites" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CPlayer" name="Player" x="604.00" y="884.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+</level>

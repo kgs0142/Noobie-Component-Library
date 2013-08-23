@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="First_2" minx="320" miny="0" maxx="640" maxy="160" bgColor = "0xff000000" >
+	<layer name="bg" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_First_2_bg.csv" tiles="Hallway_2bg.PNG" x="320.000" y="0.000" tileWidth="160" tileHeight="160" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="Map3" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_First_2_Map3.csv" tiles="TileSet003.png" x="320.000" y="0.000" tileWidth="16" tileHeight="16" hasHits="true" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="trigger" xScroll="1.000" yScroll="1.000" >
+		<shape type="box" x="567.00" y="67.00" angle="0.00" wid="29.12" ht="35.45" >
+			<properties>
+				<prop name="event" value="e031" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="342.00" y="72.00" angle="0.00" wid="33.33" ht="33.33" >
+			<properties>
+				<prop name="event" value="e032" />
+			</properties>
+		</shape>
+	</layer>
+	<layer name="others" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CDiary" name="Key" x="344.00" y="91.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CDoor" name="Door" x="569.00" y="74.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CDeadGuy" name="DeadGuy" x="357.00" y="84.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+	<layer name="sprites" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CPlayer" name="Player" x="538.00" y="81.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+</level>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="OutKitchen" minx="0" miny="320" maxx="320" maxy="480" bgColor = "0xff000000" >
+	<layer name="bg" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_OutKitchen_bg.csv" tiles="TileTest002.png" x="0.000" y="320.000" tileWidth="16" tileHeight="16" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="Main" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_OutKitchen_Main.csv" tiles="TileSet003.png" x="0.000" y="320.000" tileWidth="16" tileHeight="16" hasHits="true" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="trigger" xScroll="1.000" yScroll="1.000" >
+		<shape type="box" x="75.00" y="398.00" angle="0.00" wid="20.83" ht="21.41" >
+			<properties>
+				<prop name="target" value="BDD7CA6D-3C6B-3828-C99D-BF02E3B98644" />
+				<prop name="event" value="e009" />
+			</properties>
+		</shape>
+		<shape type="box" x="21.00" y="391.00" angle="0.00" wid="19.20" ht="29.47" >
+			<properties>
+				<prop name="event" value="e008" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="223.00" y="391.00" angle="0.00" wid="19.20" ht="29.47" >
+			<properties>
+				<prop name="event" value="e010" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="303.00" y="389.00" angle="0.00" wid="19.20" ht="29.47" >
+			<properties>
+				<prop name="event" value="e011" />
+				<prop name="once" value="false" />
+			</properties>
+		</shape>
+	</layer>
+	<layer name="others" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CDoor" name="Door" x="16.00" y="390.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CDoor" name="Door" x="217.00" y="391.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CDoor" name="Door" x="302.00" y="390.00" angle="0.00" flip="false" xScale="1.45" yScale="1.00" />
+		<sprite class="CFishPic" name="FishPic" x="127.00" y="383.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" >
+			<properties>
+				<prop name="guid" value="BDD7CA6D-3C6B-3828-C99D-BF02E3B98644" />
+			</properties>
+		</sprite>
+	</layer>
+	<layer name="sprites" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CPlayer" name="Player" x="47.00" y="404.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+</level>

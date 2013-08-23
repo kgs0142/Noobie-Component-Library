@@ -12,7 +12,7 @@
  *      
  *      addChild( new Stats( { bg: 0xffffff } );
  * 
- * version log:
+ * version NC_LOG:
  *
  *      09.03.28                2.1             Mr.doob                 + Theme support.
  *      09.02.21                2.0             Mr.doob                 + Removed Player version, until I know if it's really needed.
@@ -25,7 +25,7 @@
  *      08.02.15                1.2             Mr.doob                 + Class renamed to Stats (previously FPS)
  *      08.01.05                1.2             Mr.doob                 + Click changes the fps of flash (half up increases, half down decreases)
  *      08.01.04                1.1             Mr.doob                 + Shameless ripoff of Alternativa's FPS look :P
- *                                              Theo                    + Log shape for MEM
+ *                                              Theo                    + NC_LOG shape for MEM
  *                                                                      + More room for MS
  *      07.12.13                1.0             Mr.doob                 + First version
  **/

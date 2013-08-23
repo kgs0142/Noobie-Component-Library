@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="LivingRoom" minx="0" miny="640" maxx="320" maxy="800" bgColor = "0xff000000" >
+	<layer name="bg" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_LivingRoom_bg.csv" tiles="TileTest002.png" x="0.000" y="640.000" tileWidth="16" tileHeight="16" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="Main" xScroll="1.000" yScroll="1.000" >
+		<map csv="Scene/mapCSV_LivingRoom_Main.csv" tiles="TileSet003.png" x="0.000" y="640.000" tileWidth="16" tileHeight="16" hasHits="true" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="trigger" xScroll="1.000" yScroll="1.000" >
+		<shape type="box" x="12.00" y="710.00" angle="0.00" wid="19.20" ht="29.47" >
+			<properties>
+				<prop name="event" value="e012" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="265.00" y="711.00" angle="0.00" wid="19.20" ht="29.47" >
+			<properties>
+				<prop name="event" value="e015" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="71.00" y="712.00" angle="0.00" wid="32.65" ht="32.65" >
+			<properties>
+				<prop name="event" value="e013" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+		<shape type="box" x="156.00" y="715.00" angle="0.00" wid="35.73" ht="30.77" >
+			<properties>
+				<prop name="event" value="e014" />
+				<prop name="once" value="false" />
+				<prop name="waitInput" value="true" />
+			</properties>
+		</shape>
+	</layer>
+	<layer name="others" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CDoor" name="Door" x="7.00" y="711.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CTv" name="TV" x="72.00" y="715.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CHangerBig" name="HangerBig" x="176.00" y="718.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CHangerSmall" name="HangerSmall" x="158.00" y="720.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+		<sprite class="CDoor" name="Door" x="261.00" y="710.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+	<layer name="sprites" xScroll="1.000" yScroll="1.000" >
+		<sprite class="CPlayer" name="Player" x="32.00" y="725.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" />
+	</layer>
+</level>

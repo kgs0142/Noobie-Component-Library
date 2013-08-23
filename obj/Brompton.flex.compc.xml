@@ -30,6 +30,7 @@
     <class>com.brompton.component.BPBaseComponent</class>
     <class>com.brompton.component.BPHpComp</class>
     <class>com.brompton.component.system.BPLoader</class>
+    <class>com.brompton.component.system.script.BPAudioManager</class>
     <class>com.brompton.component.system.script.BPLuaAlchemy</class>
     <class>com.brompton.component.system.script.BPLuaManager</class>
     <class>com.brompton.entity.BPEntity</class>

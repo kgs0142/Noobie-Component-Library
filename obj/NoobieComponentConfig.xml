@@ -16,7 +16,7 @@
     </define>
     <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'2013/5/16'</value>
+      <value>'2013/8/23'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -44,16 +44,16 @@
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>E:\Dropbox\Research\Project\Brompton_Lib\src</path-element>
-      <path-element>E:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
+      <path-element>D:\Dropbox\Research\Project\Noobie Component Lib\src</path-element>
+      <path-element>D:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>E:\Dropbox\Research\Project\Brompton_Lib\libs\lua-alchemy-v0.3.2.swc</path-element>
-      <path-element>E:\Dropbox\Research\Project\Brompton_Lib\libs\zip.swc</path-element>
+      <path-element>D:\Dropbox\Research\Project\Noobie Component Lib\libs\lua-alchemy-v0.3.2.swc</path-element>
+      <path-element>D:\Dropbox\Research\Project\Noobie Component Lib\libs\zip.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>E:\Dropbox\Research\Project\Brompton_Lib\src\Main.as</path-element>
+    <path-element>D:\Dropbox\Research\Project\Noobie Component Lib\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>
